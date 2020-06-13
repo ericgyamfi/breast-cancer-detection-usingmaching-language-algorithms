@@ -1,0 +1,277 @@
+{%extends 'base.html'%} {%block head%} {%endblock%} {%block body%}
+
+<div class="card-body text-center">
+  <h2 class="card-title" style="color: white;">
+    AI model to predict breast cancer to be Malignant or Benign
+  </h2>
+  <form>
+    <h1>BREAST CANCER DATA ANALYSIS</h1>
+    <div class="form-row">
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="radius mean"
+          placeholder="radius mean"
+        />
+      </div>
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="texture mean"
+          placeholder="texture mean"
+        />
+      </div>
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="perimeter mean"
+          placeholder="perimeter mean"
+        />
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="area mean"
+          placeholder="area mean"
+        />
+      </div>
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="smoothness mean"
+          placeholder="smoothness mean"
+        />
+      </div>
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="compactness mean"
+          placeholder="compactness mean"
+        />
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="concavity mean"
+          placeholder="concavity mean"
+        />
+      </div>
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="concave points mean"
+          placeholder="concave points mean"
+        />
+      </div>
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="symmetry mean"
+          placeholder="symmetry mean"
+        />
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="fractal dimension mean"
+          placeholder="fractal dimension mean"
+        />
+      </div>
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="radius se"
+          placeholder="radius se"
+        />
+      </div>
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="texture se"
+          placeholder="texture se"
+        />
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="perimeter se"
+          placeholder="perimeter se"
+        />
+      </div>
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="area se"
+          placeholder="area se"
+        />
+      </div>
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="smoothness se"
+          placeholder="smoothness se"
+        />
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="compactness se"
+          placeholder="compactness se"
+        />
+      </div>
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="concavity se"
+          placeholder="concavity se"
+        />
+      </div>
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="concave points se"
+          placeholder="concave points se"
+        />
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="concave points worse"
+          placeholder="concave points se"
+        />
+      </div>
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="symmetry worse"
+          placeholder="symmetry se"
+        />
+      </div>
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="fractal dimension worse"
+          placeholder="fractal dimension se"
+        />
+      </div>
+    </div>
+
+    
+    <div class="form-row">
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="texture worse"
+          placeholder="texture worse"
+        />
+      </div>
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="perimeter worse"
+          placeholder="perimeter worse"
+        />
+      </div>
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="area worse"
+          placeholder="area worse"
+        />
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="smoothness worse"
+          placeholder="smoothness worse"
+        />
+      </div>
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="compactness worse"
+          placeholder="compactness worse"
+        />
+      </div>
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="concavity worse"
+          placeholder="concavity worse"
+        />
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="concave points worse"
+          placeholder="concave points worse"
+        />
+      </div>
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="symmetry worse"
+          placeholder="symmetry worse"
+        />
+      </div>
+      <div class="col-4">
+        <input
+          type="text"
+          class="form-control"
+          name="fractal dimension worse"
+          placeholder="fractal dimension worse"
+        />
+      </div>
+    </div>
+    
+    
+    <button type="submit" class="btn btn-primary btn-lg" id="submits">Predict</button>
+  </form>
+</div>
+
+{%endblock%}

@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    font-family: New Century Schoolbook, TeX Gyre;
+}
+form {
+    margin:10px; 
+    padding: 0px 5px;
+    background: #F5F5F5;  
+  }
+
+ #submits{
+     margin-top: 25px;
+ }
+
+ .form-row{
+     margin-top: 15px;
+ }
+
+ 
